@@ -2,6 +2,10 @@
 
 这里是项目入口目录，不是一个包含所有软件控制代码的大项目。每个软件项目都有自己的独立公开仓库、说明、源码或 Skill 文件及发布下载入口；请按需进入对应项目。
 
+<!-- project-support:start -->
+> 如果本项目对你或你的 AI 开发有帮助，下载使用或借鉴后，欢迎点个 [Star](https://github.com/EagleRanger/windows-app-automation-skills) 支持，也让更多有同类需求的人找到它。
+<!-- project-support:end -->
+
 ## 独立软件项目
 
 | 项目 | 独立仓库 | 下载 |
