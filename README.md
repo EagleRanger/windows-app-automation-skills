@@ -20,7 +20,6 @@
 | WorkBuddy 自动签到 | [查看 WorkBuddy 项目](https://github.com/EagleRanger/wb-daily-checkin) | [独立安装包](https://github.com/EagleRanger/wb-daily-checkin/releases/latest) |
 | Obsidian 本地知识库配置 | [查看 Obsidian 项目](https://github.com/EagleRanger/obsidian-vault-setup) | [独立安装包](https://github.com/EagleRanger/obsidian-vault-setup/releases/latest) |
 | Codex 多模型桥接与额度小窗口 | [查看多模型与额度项目](https://github.com/EagleRanger/codex-multimodel-quota-bridge) | [独立安装包](https://github.com/EagleRanger/codex-multimodel-quota-bridge/releases/latest) |
-| 明日方舟 AI 自动化 | [查看方舟项目](https://github.com/EagleRanger/maa-arknights-ai-automation) | [独立安装包](https://github.com/EagleRanger/maa-arknights-ai-automation/releases/latest) |
 
 同一软件项目可以包含多个相互配合的 Skill，但不需要安装其他软件项目。使用条件、依赖、实测范围和许可证以各独立仓库为准；这里不复制私有驱动、软件本体、账号、模型权重或真实项目数据。
 
@@ -36,7 +35,7 @@ CAD 项目包含框架与可复用检查/标注脚本，不声称附带完整私
 
 ## 历史组合包
 
-早期 v1.0.0 离线组合 ZIP 与标签继续保留，见 [历史说明](HISTORICAL_RELEASES.md)。当前首页和主分支已改为纯索引；新的使用与更新应优先进入上表各独立项目。
+v1.0.0 离线组合 ZIP 已于 2026 年 10 月 13 日移除游戏自动化附件，保留 11 个软件控制 Skill 与 4 个独立发布附件；旧 Git 标签仅保留为历史源码，见 [历史说明](HISTORICAL_RELEASES.md)。当前首页和主分支是 10 个软件项目的纯索引；新的使用与更新应优先进入上表各独立项目。
 
 ## 来源与贡献
 

@@ -15,8 +15,7 @@
     {"title":"WorkBuddy 自动签到","repository":"https://github.com/EagleRanger/wb-daily-checkin","release":"https://github.com/EagleRanger/wb-daily-checkin/releases/latest","category":"software"},
     {"title":"Obsidian 本地知识库配置","repository":"https://github.com/EagleRanger/obsidian-vault-setup","release":"https://github.com/EagleRanger/obsidian-vault-setup/releases/latest","category":"software"},
     {"title":"Codex 多模型桥接与额度小窗口","repository":"https://github.com/EagleRanger/codex-multimodel-quota-bridge","release":"https://github.com/EagleRanger/codex-multimodel-quota-bridge/releases/latest","category":"software"},
-    {"title":"明日方舟 AI 自动化","repository":"https://github.com/EagleRanger/maa-arknights-ai-automation","release":"https://github.com/EagleRanger/maa-arknights-ai-automation/releases/latest","category":"software"},
     {"title":"长期项目管理与推理循环","repository":"https://github.com/EagleRanger/codex-project-reasoning-loop","release":"https://github.com/EagleRanger/codex-project-reasoning-loop/releases/latest","category":"method"}
   ],
-  "historical_bundle": {"version":"v1.0.0","url":"https://github.com/EagleRanger/windows-app-automation-skills/releases/tag/v1.0.0","status":"保留历史离线组合包；当前主分支仅作索引。"}
+  "historical_bundle": {"version":"v1.0.0","scope_corrected":"2026-10-13","url":"https://github.com/EagleRanger/windows-app-automation-skills/releases/tag/v1.0.0","status":"Release 命名 ZIP 已移除游戏自动化附件；11 Skills 与 4 附件。旧 Git 标签仅为历史源码，主分支仅作索引。"}
 }
