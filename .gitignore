@@ -1,7 +1,0 @@
-**/__pycache__/
-*.pyc
-**/.venv/
-**/bin/
-**/obj/
-.env
-local-receipts/
