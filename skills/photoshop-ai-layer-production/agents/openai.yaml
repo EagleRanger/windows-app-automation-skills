@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photoshop AI 分层生产"
+  short_description: "一键复现本地AI拆图、PS分层组装、文字回写与重开验收"
+  default_prompt: "Use $photoshop-ai-layer-production to 先自检或搭建本地Qwen分层环境，再把这张平面图拆成原尺寸可编辑图层并在用户打开的Photoshop中另存为已验收的PSD或PSB副本。"

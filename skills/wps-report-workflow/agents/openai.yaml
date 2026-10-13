@@ -1,0 +1,4 @@
+interface:
+  display_name: "WPS 报告整编与修订校审"
+  short_description: "本地WPS报告整编，统一范本格式、扫描材料、目录页码与真实修订验收"
+  default_prompt: "使用 $wps-report-workflow 按我提供的原件和范本整理这份 Word，保留真实修订并核验目录、页码与排版。"

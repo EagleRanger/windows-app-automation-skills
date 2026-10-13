@@ -1,0 +1,4 @@
+interface:
+  display_name: "GIS 自动化操作与控制"
+  short_description: "ArcGIS Pro 本地地图、图层、视图、布局控制与后台 ArcPy 操作"
+  default_prompt: "用 $arcgis-pro-local-automation 检查测试工程并规划本地 GIS 操作，先确认实例、工程和允许改动范围。"

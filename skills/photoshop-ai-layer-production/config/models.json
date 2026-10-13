@@ -1,0 +1,36 @@
+{
+  "schema": "photoshop_ai_layer_models_v1",
+  "total_download_bytes": 30172079117,
+  "models": [
+    {
+      "role": "diffusion_model",
+      "filename": "qwen_image_layered_fp8mixed.safetensors",
+      "relative_path": "models/diffusion_models/qwen_image_layered_fp8mixed.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-Layered_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_layered_fp8mixed.safetensors?download=true",
+      "bytes": 20533591821,
+      "sha256": "e68c406b1bc08c97382a46dce6ed46699bc18a0f50422d97952ee4e8b63ad50a",
+      "license": "Apache-2.0",
+      "source_page": "https://huggingface.co/Comfy-Org/Qwen-Image-Layered_ComfyUI/blob/main/split_files/diffusion_models/qwen_image_layered_fp8mixed.safetensors"
+    },
+    {
+      "role": "text_encoder",
+      "filename": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "relative_path": "models/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors?download=true",
+      "bytes": 9384670680,
+      "sha256": "cb5636d852a0ea6a9075ab1bef496c0db7aef13c02350571e388aea959c5c0b4",
+      "license": "See source repository license",
+      "source_page": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/blob/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
+    },
+    {
+      "role": "vae",
+      "filename": "qwen_image_layered_vae.safetensors",
+      "relative_path": "models/vae/qwen_image_layered_vae.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-Layered_ComfyUI/resolve/main/split_files/vae/qwen_image_layered_vae.safetensors?download=true",
+      "bytes": 253816616,
+      "sha256": "c5320595fc61859ccdd0282184208f7b781c983b8ce4c6bc3e7723a807d3d28d",
+      "license": "Apache-2.0",
+      "source_page": "https://huggingface.co/Comfy-Org/Qwen-Image-Layered_ComfyUI/blob/main/split_files/vae/qwen_image_layered_vae.safetensors"
+    }
+  ]
+}

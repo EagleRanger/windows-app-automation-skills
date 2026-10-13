@@ -1,0 +1,4 @@
+interface:
+  display_name: "WPS 本地同步"
+  short_description: "通过本机 WPS 安全读写、排版、导出并重开验收办公文档"
+  default_prompt: "Use $wps-local-sync to operate on this file through local WPS, preserve the original, and verify the saved result after reopening it."
