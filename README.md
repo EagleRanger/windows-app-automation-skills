@@ -1,42 +1,35 @@
-# Windows 软件自动化项目索引
+# Windows 办公软件自动化 Skill 合集与项目索引
 
-这里是项目入口目录，不是一个包含所有软件控制代码的大项目。每个软件项目都有自己的独立公开仓库、说明、源码或 Skill 文件及发布下载入口；请按需进入对应项目。
+集中下载办公软件控制、图册/报告、景观 PPT 和 Obsidian 配置。当前 **v1.1.0** 包含 **13 个可直接安装的独立 Skill**，并保留 1 个 Obsidian 安装附件。各工具继续按独立目录和自己的依赖运行；本主分支保留轻量目录与分发说明。
 
-<!-- project-support:start -->
-> 如果本项目对你或你的 AI 开发有帮助，下载使用或借鉴后，欢迎点个 [Star](https://github.com/EagleRanger/windows-app-automation-skills) 支持，也让更多有同类需求的人找到它。
-<!-- project-support:end -->
+**[下载完整 Skill ZIP](https://github.com/EagleRanger/windows-app-automation-skills/releases/download/v1.1.0/windows-office-automation-skills-v1.1.0-20261014.zip)** · [查看本次发布](https://github.com/EagleRanger/windows-app-automation-skills/releases/tag/v1.1.0)
 
-## 独立软件项目
+解压后运行 `powershell -ExecutionPolicy Bypass -File .\install.ps1 -All`，或只选择需要的 Skill。安装器复制 Skill，不自动覆盖不同的已有版本；软件本体、账号、Python 环境和其他依赖按各目录说明配置。
 
-| 项目 | 独立仓库 | 下载 |
+## 工具目录
+
+| 项目 | Skill / 来源 | 分发 |
 | --- | --- | --- |
-| 天正 CAD 自动化与图纸校审 | [查看 CAD 项目](https://github.com/EagleRanger/tianzheng-cad-automation-skills) | [独立安装包](https://github.com/EagleRanger/tianzheng-cad-automation-skills/releases/latest) |
-| GIS / ArcGIS Pro 自动化控制 | [查看 GIS 项目](https://github.com/EagleRanger/arcgis-pro-local-automation-skill) | [独立安装包](https://github.com/EagleRanger/arcgis-pro-local-automation-skill/releases/latest) |
-| WPS 本地自动化与报告排版 | [查看 WPS 项目](https://github.com/EagleRanger/wps-local-automation-skills) | [独立安装包](https://github.com/EagleRanger/wps-local-automation-skills/releases/latest) |
-| Photoshop 自动化与可编辑图层生产 | [查看 Photoshop 项目](https://github.com/EagleRanger/photoshop-local-automation-skills) | [独立安装包](https://github.com/EagleRanger/photoshop-local-automation-skills/releases/latest) |
-| Chrome 受管浏览器自动化 | [查看 Chrome 项目](https://github.com/EagleRanger/chrome-local-automation-skill) | [独立安装包](https://github.com/EagleRanger/chrome-local-automation-skill/releases/latest) |
-| 建筑学长网页生图与下载 | [查看建筑学长项目](https://github.com/EagleRanger/jianzhuxuezhang-image-skill) | [独立安装包](https://github.com/EagleRanger/jianzhuxuezhang-image-skill/releases/latest) |
-| PPT 景观文本增强版 | [查看 PPT 项目](https://github.com/EagleRanger/ppt-master-landscape-text-enhanced) | [独立安装包](https://github.com/EagleRanger/ppt-master-landscape-text-enhanced/releases/latest) |
-| WorkBuddy 自动签到 | [查看 WorkBuddy 项目](https://github.com/EagleRanger/wb-daily-checkin) | [独立安装包](https://github.com/EagleRanger/wb-daily-checkin/releases/latest) |
-| Obsidian 本地知识库配置 | [查看 Obsidian 项目](https://github.com/EagleRanger/obsidian-vault-setup) | [独立安装包](https://github.com/EagleRanger/obsidian-vault-setup/releases/latest) |
-| Codex 多模型桥接与额度小窗口 | [查看多模型与额度项目](https://github.com/EagleRanger/codex-multimodel-quota-bridge) | [独立安装包](https://github.com/EagleRanger/codex-multimodel-quota-bridge/releases/latest) |
+| CAD / 天正图纸校审与标注 | [独立项目](https://github.com/EagleRanger/tianzheng-cad-automation-skills)，3 个 Skill | 随合集，也可从原项目下载 |
+| GIS / ArcGIS Pro 控制 | [独立项目](https://github.com/EagleRanger/arcgis-pro-local-automation-skill)，1 个 Skill | 随合集，也可从原项目下载 |
+| WPS 控制与报告排版 | [独立项目](https://github.com/EagleRanger/wps-local-automation-skills)，2 个 Skill | 随合集，也可从原项目下载 |
+| Photoshop 控制与图层生产 | [独立项目](https://github.com/EagleRanger/photoshop-local-automation-skills)，3 个 Skill | 随合集，也可从原项目下载 |
+| Chrome 受管浏览器 | [独立项目](https://github.com/EagleRanger/chrome-local-automation-skill)，1 个 Skill | 随合集，也可从原项目下载 |
+| 建筑学长网页生图 | [独立项目](https://github.com/EagleRanger/jianzhuxuezhang-image-skill)，1 个 Skill | 随合集，也可从原项目下载 |
+| **PPT Master 景观文本增强版** | [原项目](https://github.com/EagleRanger/ppt-master-landscape-text-enhanced)，`ppt-master` | **本合集内为截至 2026-10-13 的新快照**；原独立 Release 的日期/版本可能较早 |
+| **图册与报告范本复刻** | `report-template-replication`，1 个自包含 Skill | **本次随合集首次分发，可单独安装此目录** |
+| Obsidian 本地知识库 | [独立项目](https://github.com/EagleRanger/obsidian-vault-setup) | 独立原发布 ZIP 随包附带，按其说明安装 |
 
-同一软件项目可以包含多个相互配合的 Skill，但不需要安装其他软件项目。使用条件、依赖、实测范围和许可证以各独立仓库为准；这里不复制私有驱动、软件本体、账号、模型权重或真实项目数据。
+图册与 PPT 都已直接放入 ZIP 的 `skills/` 下；不用再从附件拆第二层 PPT 包。CAD 公开框架不包含完整私有执行器。新机器的实际软件连接、字体与渲染仍需接收方验证。
 
-CAD 项目包含框架与可复用检查/标注脚本，不声称附带完整私有 CAD 执行器。GIS 项目早已有独立仓库，本索引直接链接该仓，不重复创建同类项目。
+## 本次范围
 
-## 关联方法项目
+合集不再包含签到、模型桥接/额度补丁、金融或游戏自动化。通用 PPT 图标和图表模板可以有金融/游戏题材的文件名，它们仅为可选制图素材，不是相应自动化程序。真实项目文件、业务数据库、账号和凭据不随包公开。
 
-[长期项目管理与推理循环](https://github.com/EagleRanger/codex-project-reasoning-loop)独立维护总项目—细项目—执行的分层方法，不作为软件安装依赖。
+机器可读清单见 [catalog.json](catalog.json)，包内另附各 Skill 指纹和 SHA-256。历史版本说明见 [HISTORICAL_RELEASES.md](HISTORICAL_RELEASES.md)。
 
-## 给 AI 或迁移工具
+## 来源与支持
 
-机器可读项目入口见 [catalog.json](catalog.json)。先选具体项目，再读取它的 README、Skill 与 Release；不要把本索引当成可执行软件控制器或依赖安装器。
+保留 [分项许可](LICENSES.md) 和 [第三方来源](THIRD_PARTY_NOTICES.md)。PPT Master 基于 Hugo He 的 MIT 项目，Theme Factory 资料保留 Apache-2.0；其他组件沿用各自声明。
 
-## 历史组合包
-
-v1.0.0 离线组合 ZIP 已于 2026 年 10 月 13 日移除游戏自动化附件，保留 11 个软件控制 Skill 与 4 个独立发布附件；旧 Git 标签仅保留为历史源码，见 [历史说明](HISTORICAL_RELEASES.md)。当前首页和主分支是 10 个软件项目的纯索引；新的使用与更新应优先进入上表各独立项目。
-
-## 来源与贡献
-
-各项目分别遵守其许可证，见 [许可说明](LICENSES.md)。EagleRanger 提出需求与验收，OpenAI Codex 协助整理、打包与校审。
+如果实际下载、使用或借鉴后觉得对开发有帮助，欢迎自愿给对应项目 Star。EagleRanger 提出需求与验收，OpenAI Codex 协助整理、打包和核验。

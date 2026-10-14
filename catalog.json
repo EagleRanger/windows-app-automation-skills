@@ -1,21 +1,20 @@
 {
-  "schema_version": 1,
-  "kind": "independent-project-index",
-  "title": "Windows 软件自动化项目索引",
-  "updated": "2026-10-13",
-  "installation": "进入所需独立项目，按该仓库说明和 Release 安装；本索引不执行安装。",
+  "schema_version": 2,
+  "title": "Windows 办公软件自动化 Skill 合集与索引",
+  "updated": "2026-10-14",
+  "release": "https://github.com/EagleRanger/windows-app-automation-skills/releases/tag/v1.1.0",
+  "archive": "https://github.com/EagleRanger/windows-app-automation-skills/releases/download/v1.1.0/windows-office-automation-skills-v1.1.0-20261014.zip",
+  "version": "1.1.0",
+  "skill_count": 13,
   "projects": [
-    {"title":"天正 CAD 自动化与图纸校审","repository":"https://github.com/EagleRanger/tianzheng-cad-automation-skills","release":"https://github.com/EagleRanger/tianzheng-cad-automation-skills/releases/latest","category":"software","skills":["cad-check-review","tianzheng-batch-polyline-dimension","tianzheng-cad-automation-framework"]},
-    {"title":"GIS / ArcGIS Pro 自动化控制","repository":"https://github.com/EagleRanger/arcgis-pro-local-automation-skill","release":"https://github.com/EagleRanger/arcgis-pro-local-automation-skill/releases/latest","category":"software"},
-    {"title":"WPS 本地自动化与报告排版","repository":"https://github.com/EagleRanger/wps-local-automation-skills","release":"https://github.com/EagleRanger/wps-local-automation-skills/releases/latest","category":"software","skills":["wps-local-sync","wps-report-workflow"]},
-    {"title":"Photoshop 自动化与可编辑图层生产","repository":"https://github.com/EagleRanger/photoshop-local-automation-skills","release":"https://github.com/EagleRanger/photoshop-local-automation-skills/releases/latest","category":"software","skills":["photoshop-local-automation","photoshop-ai-layer-production","photoshop-raster-to-layered-psb"]},
-    {"title":"Chrome 受管浏览器自动化","repository":"https://github.com/EagleRanger/chrome-local-automation-skill","release":"https://github.com/EagleRanger/chrome-local-automation-skill/releases/latest","category":"software","skills":["chrome-local-automation"]},
-    {"title":"建筑学长网页生图与下载","repository":"https://github.com/EagleRanger/jianzhuxuezhang-image-skill","release":"https://github.com/EagleRanger/jianzhuxuezhang-image-skill/releases/latest","category":"software","skills":["jianzhuxuezhang-image"]},
-    {"title":"PPT 景观文本增强版","repository":"https://github.com/EagleRanger/ppt-master-landscape-text-enhanced","release":"https://github.com/EagleRanger/ppt-master-landscape-text-enhanced/releases/latest","category":"software"},
-    {"title":"WorkBuddy 自动签到","repository":"https://github.com/EagleRanger/wb-daily-checkin","release":"https://github.com/EagleRanger/wb-daily-checkin/releases/latest","category":"software"},
-    {"title":"Obsidian 本地知识库配置","repository":"https://github.com/EagleRanger/obsidian-vault-setup","release":"https://github.com/EagleRanger/obsidian-vault-setup/releases/latest","category":"software"},
-    {"title":"Codex 多模型桥接与额度小窗口","repository":"https://github.com/EagleRanger/codex-multimodel-quota-bridge","release":"https://github.com/EagleRanger/codex-multimodel-quota-bridge/releases/latest","category":"software"},
-    {"title":"长期项目管理与推理循环","repository":"https://github.com/EagleRanger/codex-project-reasoning-loop","release":"https://github.com/EagleRanger/codex-project-reasoning-loop/releases/latest","category":"method"}
-  ],
-  "historical_bundle": {"version":"v1.0.0","scope_corrected":"2026-10-13","url":"https://github.com/EagleRanger/windows-app-automation-skills/releases/tag/v1.0.0","status":"Release 命名 ZIP 已移除游戏自动化附件；11 Skills 与 4 附件。旧 Git 标签仅为历史源码，主分支仅作索引。"}
+    {"title":"CAD / 天正","repository":"https://github.com/EagleRanger/tianzheng-cad-automation-skills","skills":["cad-check-review","tianzheng-batch-polyline-dimension","tianzheng-cad-automation-framework"]},
+    {"title":"GIS / ArcGIS Pro","repository":"https://github.com/EagleRanger/arcgis-pro-local-automation-skill","skills":["arcgis-pro-local-automation"]},
+    {"title":"WPS 控制与报告","repository":"https://github.com/EagleRanger/wps-local-automation-skills","skills":["wps-local-sync","wps-report-workflow"]},
+    {"title":"Photoshop 控制与图层","repository":"https://github.com/EagleRanger/photoshop-local-automation-skills","skills":["photoshop-local-automation","photoshop-ai-layer-production","photoshop-raster-to-layered-psb"]},
+    {"title":"Chrome 受管浏览器","repository":"https://github.com/EagleRanger/chrome-local-automation-skill","skills":["chrome-local-automation"]},
+    {"title":"建筑学长网页生图","repository":"https://github.com/EagleRanger/jianzhuxuezhang-image-skill","skills":["jianzhuxuezhang-image"]},
+    {"title":"PPT Master 景观文本增强版","repository":"https://github.com/EagleRanger/ppt-master-landscape-text-enhanced","skills":["ppt-master"],"bundle_snapshot":"2026-10-13","note":"本合集新快照，不能把独立仓较早的 Release 当成同版本。"},
+    {"title":"图册与报告范本复刻","repository":null,"distribution":"self-contained skill in collection release","skills":["report-template-replication"],"skill_version":"1.1.0"},
+    {"title":"Obsidian 本地知识库","repository":"https://github.com/EagleRanger/obsidian-vault-setup","distribution":"nested original archive","archive_in_bundle":"existing-releases/Obsidian-Vault-Setup-2026.08.14.zip"}
+  ]
 }
