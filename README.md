@@ -1,8 +1,10 @@
 # Windows 办公软件自动化 Skill 合集与项目索引
 
-集中下载办公软件控制、图册/报告、景观 PPT 和 Obsidian 配置。当前 **v1.1.0** 包含 **13 个可直接安装的独立 Skill**，并保留 1 个 Obsidian 安装附件。各工具继续按独立目录和自己的依赖运行；本主分支保留轻量目录与分发说明。
+集中下载办公软件控制、图册/报告、景观 PPT 和 Obsidian 配置。当前 **v1.1.1** 包含 **13 个可安装的独立 Skill**，并保留 1 个 Obsidian 安装附件。各工具继续按独立目录和自己的依赖运行；本主分支保留轻量目录与分发说明。
 
-**[下载完整 Skill ZIP](https://github.com/EagleRanger/windows-app-automation-skills/releases/download/v1.1.0/windows-office-automation-skills-v1.1.0-20261014.zip)** · [查看本次发布](https://github.com/EagleRanger/windows-app-automation-skills/releases/tag/v1.1.0)
+**[下载完整 Skill ZIP](https://github.com/EagleRanger/windows-app-automation-skills/releases/download/v1.1.1/windows-office-automation-skills-v1.1.1-20261029.zip)** · [查看本次发布](https://github.com/EagleRanger/windows-app-automation-skills/releases/tag/v1.1.1)
+
+本次同步 CAD / 天正 v1.1.1：随批量标注 Skill 提供公式、规划器、原生模块和控制执行源码，保留精确文档绑定与后台优先约束。完整命令仍为验证候选，新机器需自行配置正版软件、编译引用和真实任务输入。其余 10 个 Skill 与 Obsidian 附件保持原快照，不借本次 CAD 更新改动。
 
 解压后运行 `powershell -ExecutionPolicy Bypass -File .\install.ps1 -All`，或只选择需要的 Skill。安装器复制 Skill，不自动覆盖不同的已有版本；软件本体、账号、Python 环境和其他依赖按各目录说明配置。
 
@@ -10,7 +12,7 @@
 
 | 项目 | Skill / 来源 | 分发 |
 | --- | --- | --- |
-| CAD / 天正图纸校审与标注 | [独立项目](https://github.com/EagleRanger/tianzheng-cad-automation-skills)，3 个 Skill | 随合集，也可从原项目下载 |
+| CAD / 天正图纸校审与标注 | [独立项目](https://github.com/EagleRanger/tianzheng-cad-automation-skills)，3 个 Skill | v1.1.1 含标注执行源码，也可从原项目下载 |
 | GIS / ArcGIS Pro 控制 | [独立项目](https://github.com/EagleRanger/arcgis-pro-local-automation-skill)，1 个 Skill | 随合集，也可从原项目下载 |
 | WPS 控制与报告排版 | [独立项目](https://github.com/EagleRanger/wps-local-automation-skills)，2 个 Skill | 随合集，也可从原项目下载 |
 | Photoshop 控制与图层生产 | [独立项目](https://github.com/EagleRanger/photoshop-local-automation-skills)，3 个 Skill | 随合集，也可从原项目下载 |
@@ -20,7 +22,7 @@
 | **图册与报告范本复刻** | `report-template-replication`，1 个自包含 Skill | **本次随合集首次分发，可单独安装此目录** |
 | Obsidian 本地知识库 | [独立项目](https://github.com/EagleRanger/obsidian-vault-setup) | 独立原发布 ZIP 随包附带，按其说明安装 |
 
-图册与 PPT 都已直接放入 ZIP 的 `skills/` 下；不用再从附件拆第二层 PPT 包。CAD 公开框架不包含完整私有执行器。新机器的实际软件连接、字体与渲染仍需接收方验证。
+图册与 PPT 都已直接放入 ZIP 的 `skills/` 下；不用再从附件拆第二层 PPT 包。CAD 的已有算法与执行源码放在批量标注 Skill 的 `runtime/`，不附作者私有图纸、状态和商业软件。新机器的实际软件连接、字体与渲染仍需接收方验证。
 
 ## 本次范围
 
