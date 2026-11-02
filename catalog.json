@@ -1,11 +1,18 @@
 {
   "schema_version": 2,
   "title": "Windows 办公软件自动化 Skill 合集与索引",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "release": "https://github.com/EagleRanger/windows-app-automation-skills/releases/tag/v1.1.1",
   "archive": "https://github.com/EagleRanger/windows-app-automation-skills/releases/download/v1.1.1/windows-office-automation-skills-v1.1.1-20261029.zip",
   "version": "1.1.1",
   "skill_count": 13,
+  "skill_count_scope": "existing v1.1.1 bundle; standalone-only additions are not included",
+  "categories": {
+    "GIS自动化": [
+      "https://github.com/EagleRanger/ovital-local-automation-skill",
+      "https://github.com/EagleRanger/arcgis-pro-local-automation-skill"
+    ]
+  },
   "projects": [
     {
       "title": "CAD / 天正",
@@ -19,7 +26,15 @@
       "note": "含已有标注公式、规划器与控制执行源码；新机自行配置环境与真实任务输入，完整命令保持验证候选。"
     },
     {
+      "title": "GIS / 奥维地图",
+      "category": "GIS自动化",
+      "repository": "https://github.com/EagleRanger/ovital-local-automation-skill",
+      "distribution": "standalone-only; not in v1.1.1 bundle",
+      "skills": ["ovital-local-automation"]
+    },
+    {
       "title": "GIS / ArcGIS Pro",
+      "category": "GIS自动化",
       "repository": "https://github.com/EagleRanger/arcgis-pro-local-automation-skill",
       "skills": [
         "arcgis-pro-local-automation"

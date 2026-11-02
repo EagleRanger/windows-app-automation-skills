@@ -14,6 +14,7 @@
 | --- | --- | --- |
 | CAD / 天正图纸校审与标注 | [独立项目](https://github.com/EagleRanger/tianzheng-cad-automation-skills)，3 个 Skill | v1.1.1 含标注执行源码，也可从原项目下载 |
 | GIS / ArcGIS Pro 控制 | [独立项目](https://github.com/EagleRanger/arcgis-pro-local-automation-skill)，1 个 Skill | 随合集，也可从原项目下载 |
+| GIS / 奥维地图后台自动化 | [独立项目](https://github.com/EagleRanger/ovital-local-automation-skill)，`ovital-local-automation` | 独立下载；不在旧 v1.1.1 合集 ZIP 内 |
 | WPS 控制与报告排版 | [独立项目](https://github.com/EagleRanger/wps-local-automation-skills)，2 个 Skill | 随合集，也可从原项目下载 |
 | Photoshop 控制与图层生产 | [独立项目](https://github.com/EagleRanger/photoshop-local-automation-skills)，3 个 Skill | 随合集，也可从原项目下载 |
 | Chrome 受管浏览器 | [独立项目](https://github.com/EagleRanger/chrome-local-automation-skill)，1 个 Skill | 随合集，也可从原项目下载 |
@@ -23,6 +24,13 @@
 | Obsidian 本地知识库 | [独立项目](https://github.com/EagleRanger/obsidian-vault-setup) | 独立原发布 ZIP 随包附带，按其说明安装 |
 
 图册与 PPT 都已直接放入 ZIP 的 `skills/` 下；不用再从附件拆第二层 PPT 包。CAD 的已有算法与执行源码放在批量标注 Skill 的 `runtime/`，不附作者私有图纸、状态和商业软件。新机器的实际软件连接、字体与渲染仍需接收方验证。
+
+## GIS 自动化
+
+- [奥维地图自动化](https://github.com/EagleRanger/ovital-local-automation-skill)：Windows 官方消息接口后台控制、收藏夹与几何读写、KML/KMZ、影像缓存导出、道路封面及外扩/合并/裁切/差集。普通几何计算使用 Shapely/pyproj，不强制依赖 ArcGIS 进程或许可。
+- [ArcGIS Pro 自动化](https://github.com/EagleRanger/arcgis-pro-local-automation-skill)：ArcGIS Pro 的本地连接、工程/图层控制和对应 GIS 工作流，依赖其自身环境。
+
+这是两个独立项目的分类索引，不把其中一个装进另一个目录。奥维为本次新增独立项目；上方旧合集 ZIP 仍是原13个 Skill 的快照，不声称已经收录新奥维包。按对应仓库入口下载最新版本。
 
 ## 本次范围
 
